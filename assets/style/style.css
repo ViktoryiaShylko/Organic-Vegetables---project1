@@ -1,0 +1,99 @@
+.main__section3__title {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500; 
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #141414;
+
+}
+.main__section3__text{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #141414;
+}
+.main__section3__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center; 
+}
+.main__section3__cards__1{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.main__section3__cards__2{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.main__section3__cards__3{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.main__section3__cards__4{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.main__section3__cards__5{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.main__section3__cards__6{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
+.main__section3__cards__7{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.main__section3__cards__8{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.main__section3__cards__9{
+    width: 30vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.main__section3__button{
+    width: 11vw;
+    display: block;
+    margin: auto;
+}
