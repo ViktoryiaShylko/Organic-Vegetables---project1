@@ -3,6 +3,123 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+/* -- header -- */
+header {
+    position: relative;
+    padding: 13px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    list-style-type:  none;
+}
+.nav__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #141414;
+}
+.nav__link:hover {
+    color: #FC8A11;
+}
+.header__logo {
+    position: absolute;
+    left: 45%;
+}
+.header__btn {
+    display: flex;
+    align-items: center;
+}
+.header__btn:hover {
+    cursor: pointer;
+}
+/* -- section1 -- */
+.section1 {
+    position:relative;
+    padding: 132px 32px 32px;
+    background-color: #A1C487;
+    display: flex;
+    justify-content: space-between;
+}
+.block_left {
+    width: 55vw;
+    margin-top: 7vw;
+    margin-bottom: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.block_right {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.section1__review {
+    position: absolute;
+    top: 80px;
+}
+.review__photo {
+    width: 15vw;
+}
+.section1__title {
+    white-space: pre-line;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    line-height: 5vw;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.title__span {
+    font-style: italic;
+    color: #EAF7E5;
+}
+.section1__text {
+    width: 80%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8vw;
+    color: #FFFFFF;
+}
+.section1__shop-btn {
+    width: 7vw;
+}
+.section1__img {
+    width: 100%;
+    align-self: flex-start;
+}
+.wrapper_big {
+    margin-top: 2vw;
+    align-self: flex-end;
+}
+.wrapper_small {
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.section1__btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 12px 32px;
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #A1C487;
+    color: #FFFFFF;
+}
+.section1__btn:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #141414;
+}
+/* ---- */
 .main__section3__title {
     text-align: center;
     font-family: "DM Sans", sans-serif;
