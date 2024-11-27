@@ -1,3 +1,8 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
 .main__section3__title {
     text-align: center;
     font-family: "DM Sans", sans-serif;
