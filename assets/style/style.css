@@ -102,3 +102,42 @@ body {
     display: block;
     margin: auto;
 }
+
+.page4_container{
+    display:flex;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+}
+.text_over {
+    position: absolute;
+    top: 20%; 
+    left: 55%; 
+}
+
+.span_green{
+    color: green;
+}
+
+.span_orange{
+    color: orange;
+}
+
+.page5{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color:rgba(234, 247, 229, 1);
+}
