@@ -89,7 +89,15 @@ header {
     color: #FFFFFF;
 }
 .section1__shop-btn {
+    transition: fill 0.3s ease;
     width: 7vw;
+}
+.section1__shop-btn:hover circle{
+    fill: #EAF7E5;
+
+}
+.section1__shop-btn:hover path {
+    fill: #A1C487;
 }
 .section1__img {
     width: 100%;
