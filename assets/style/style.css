@@ -37,6 +37,9 @@ header {
 .header__btn:hover {
     cursor: pointer;
 }
+.btn__cart:hover path{
+    stroke: #FC8A11;
+}
 /* -- section1 -- */
 .section1 {
     position: relative;
