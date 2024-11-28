@@ -149,6 +149,126 @@ left: 6.5vw;
     background-color: #FFFFFF;
     color: #141414;
 }
+
+/* -- section2 -- */
+
+.section2 {
+    padding: 132px 32px; 
+}
+
+.main__section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.main__section2__title {
+    flex: 1;
+    text-align: left;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 60%;
+}
+
+.main__section2__img {
+    flex-shrink: 0;
+    height: 100%;
+    margin-left: auto;
+}
+.main__section2__img img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.main__section2__container {
+    display: flex;
+    max-width: 60%;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+
+.main__section2__paragraphs {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 132px;
+}
+.main__section2__paragraph {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    word-wrap: break-word; 
+}
+
+.main__section2__content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(/assets/image/img/sec2-content.png);
+    width: 100%;
+    background-size: cover;
+    height: 480px;
+    border-radius: 3%;
+    gap: 20px;
+    position: relative;
+}
+
+.section2__content__title {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    align-self: flex-start;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.section2__image__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 3%;
+    width: auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 7%;
+}
+
+.img__girl {
+    width: auto;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+.main__section2__wrapper {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
+    gap: 0;
+    padding: 0;
+    margin-bottom: 8%;
+}
+
+.wrapper__img1 {
+    width: 100%;  
+    z-index: 0;  
+}
+
+.wrapper__img2 {
+    width: 100%;  
+    margin-top: -7.5%;  
+    z-index: 1; 
+}
 /* ---- */
 .main__section3__title {
     text-align: center;
