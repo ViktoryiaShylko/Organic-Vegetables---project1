@@ -255,7 +255,6 @@ left: 6.5vw;
 
 .image-container {
     position: relative;
-    display: inline-block;
 }
 
 .image-container img {
@@ -269,6 +268,10 @@ left: 6.5vw;
     font-family: "DM Sans", sans-serif;
     font-size: 40px;
     text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    left: 57%;
+    bottom: -360%;
 }
 
 .span_green{
