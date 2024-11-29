@@ -370,24 +370,32 @@ left: 6.5vw;
     margin: auto;
 }
 
-.page4_container{
-    display:flex;
-    justify-content: space-evenly;
-    margin: 10%;
+.page4{
+    margin: 5%;
 }
 
-.image-container img {
+.page4_container{
+    background-image: url(/assets/image/beige.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
     width: 100%;
-    height: auto;
-    margin-left: 20%;
+    border-radius: 4%;
+    background-size: cover;
+    position: relative;
 }
+
+.image_container{
+    display: flex;
+    margin: 5%;
+}
+
 
 .text_over {
     font-family: "DM Sans", sans-serif;
     font-size: 40px;
     text-transform: uppercase;
-    position: relative;
-    right: 25%;
+    margin: 5%;
 }
 
 
@@ -402,7 +410,7 @@ left: 6.5vw;
 .page5{
     font-family: "DM Sans", sans-serif;
     display: flex;
-    margin: 10%;
+    margin: 5%;
 }
 
 .reverse{
