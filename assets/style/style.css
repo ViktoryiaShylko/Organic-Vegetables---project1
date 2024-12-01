@@ -11,6 +11,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.header__burger {
+    display: none;
+}
 .nav__list {
     padding: 0;
     display: flex;
@@ -478,11 +481,10 @@ header {
     width: 2.5vw;
 }
     /* -- section1 -- */
-    .section1 {
-        flex-direction: column;
-        
+.section1 {
+    flex-direction: column;
     padding: 8vw 4vw 4vw;
-    }
+}
 .block_left {
     width: 100%;
     margin-bottom: 0;
@@ -549,5 +551,73 @@ left: 9vw;
 
 }
 @media (max-width:375px) {
+
+/* -- header -- */
+header {
+    padding: 3vw 5vw;
+
+}
+.nav__list {
+    display: none;
+}
+.header__logo {
+    width: 25vw;
+    left: 5vw;
+}
+.header__btn {
+    display: none;
+}
+.header__burger {
+    display: flex;
+}
+    /* -- section1 -- */
+.section1 {
+    padding: 12vw 5vw 5vw;
+}
+.block_right {
+    width: 100%;
+}
+.block_review {
+    width: 30vw;
+    height: 10vw;
+}
+.section1__review {
+    width: 10vw;
+    height: 10vw;
+}
+.section1__review_second {
+left: 6.5vw;
+}
+.section1__review_third {
+left: 13.2vw;
+}
+.section1__review_svg {
+    width: 25.3vw;
+    left:11.9vw;
+    top:-6.8vw;
+}
+.section1__title {
+    width: 100%;
+    font-size: 9.5vw;
+    line-height: 10vw;
+}
+.section1__text {
+    width: 100%;
+    font-size: 3.5vw;
+    line-height: 5vw;
+}
+.section1__shop-btn {
+    width: 17vw;
+    height: 17vw;
+}
+.section1__img {
+    align-self: center;
+}
+.section1__btn {
+    padding: 2vw  3.5vw;
+    font-size: 2.5vw;
+}
+
+    /* ---- */
     
 } 
