@@ -11,9 +11,69 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+/* -- header burger --  */
 .header__burger {
     display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 4vw;
+    height: 2.5vw;
 }
+
+.header__burger span {
+    height: 1.5px;
+    width: 100%;
+    transform: scale(1);
+    border-radius: 50px;
+    background-color: #77AC63;
+}
+
+.header__burger::before,
+.header__burger::after {
+    content: '';
+    position: absolute;
+    height: 1.5px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: #77AC63;
+    transition: all 0.3s ease 0s;
+}
+.header__burger::after {
+    width: 75%;
+}
+.header__burger::before {
+    top: 0;
+    left: 0;
+}
+
+.header__burger::after {
+    bottom: 0;
+    left: 0;
+}
+
+.header__burger.active span {
+    transform: scale(0);
+}
+
+.header__burger.active::before {
+    width: 100%;
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.header__burger.active::after {
+    width: 100%;
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+.open {
+    display: flex !important;
+}
+/*----*/
 .nav__list {
     padding: 0;
     display: flex;
@@ -25,6 +85,9 @@ header {
     font-size: 1vw;
     text-decoration: none;
     color: #141414;
+}
+.nav__link_cart {
+    display: none;
 }
 .nav__link:hover {
     color: #FC8A11;
@@ -557,9 +620,6 @@ header {
     padding: 3vw 5vw;
 
 }
-.nav__list {
-    display: none;
-}
 .header__logo {
     width: 25vw;
     left: 5vw;
@@ -567,9 +627,48 @@ header {
 .header__btn {
     display: none;
 }
+/* -- burger --*/
+
 .header__burger {
     display: flex;
+    left:95%;
 }
+.header__nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 9vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 10% 5%;
+    background-color: #A1C487;
+}
+
+.nav__list {
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5vh;
+    justify-content: flex-start;
+}
+.nav__link_cart {
+    width: 5vw;
+    display: flex;
+}
+.nav__link {
+    font-size: 3.5vw;
+    color: #FFFFFF;
+}
+.btn__cart path{
+  stroke: #FFFFFF;
+}
+
+
     /* -- section1 -- */
 .section1 {
     padding: 12vw 5vw 5vw;
