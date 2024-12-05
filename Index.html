@@ -173,6 +173,7 @@
             document.querySelectorAll('.nav__link').forEach(item=>{
                 item.addEventListener('click',() => {
                     document.querySelector('.header__nav').classList.remove('open');
+                    document.querySelector('body').classList.remove('no-scroll');
                 });
             });
         });
