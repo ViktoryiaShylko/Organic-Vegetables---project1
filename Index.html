@@ -13,10 +13,10 @@
     <header class="header">
         <nav class="header__nav nav">
             <ul class="nav__list">
-              <li class="nav__item"><a href="#" class="nav__link">How It Works</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Vegetables</a></li>
-              <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
-              <li class="nav__item"><a href="#" class="nav__link nav__link_cart">
+              <li class="nav__item"><a href="#howItWorks" class="nav__link">How It Works</a></li>
+              <li class="nav__item"><a href="#vegetebles" class="nav__link">Vegetables</a></li>
+              <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+              <li class="nav__item"><a href="#dark" class="nav__link nav__link_cart">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav__link__img cart">
                     <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" fill="#141414" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" fill="#141414" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -25,7 +25,7 @@
             </ul>
           </nav>
           <img src="./assets/image/svg/logo.svg" alt="Veggieboost logo" class="header__logo">
-          <a href="#" class="header__btn">
+          <a href="#dark" class="header__btn">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="header__btn__img cart">
                 <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" fill="#141414" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" fill="#141414" stroke="#141414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </section>
-        <section class="section2">
+        <section class="section2" id="howItWorks">
             <div class="main__section2">
             <h1 class="main__section2__title">TO ORDER YOUR VEGETABLE<br> BASKET, SIMPLY FOLLOW<br> THESE EASY STEPS</h1>
             <div class="main__section2__img">
@@ -112,8 +112,7 @@
                 </div>
             </section>
         </div>
-
-        <section class="section3">
+        <section class="section3" id="vegetebles">
             <H1 class="main__section3__title"> ORGANIC vegetables </H1>
             <p class="main__section3__text"> Our organic vegetables are hand-picked from local farms and delivered <br/> straight to your doorstep, ensuring that you get the freshest and most <br/> nutritious produce possible. </p>
             <div class="main__section3__cards">
@@ -157,7 +156,7 @@
                 <li class="fmenu2"><a href="#" class="nav__link">Vegetables</a></li>
                 <li class="fmenu3"><a href="#" class="nav__link">Contacts</a></li>
             </ul></div>
-        <div class="aside">
+        <div class="aside" id="contacts">
             <img src="assets/image/socials.png" alt="socials">
             <p>+380 (68) 443-94-26</p>
             <p>1678 S. Pioneer Road
@@ -171,7 +170,12 @@
             this.classList.toggle('active');
             document.querySelector('.header__nav').classList.toggle('open');
             document.querySelector('body').classList.toggle('no-scroll');
-        })
+            document.querySelectorAll('.nav__link').forEach(item=>{
+                item.addEventListener('click',() => {
+                    document.querySelector('.header__nav').classList.remove('open');
+                });
+            });
+        });
     </script>
 </body>
 </html>
