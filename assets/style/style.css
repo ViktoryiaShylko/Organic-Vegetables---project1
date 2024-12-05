@@ -624,6 +624,17 @@ body {
     list-style-type:  none;    
 }
 
+.nav__link_footer {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+    color: #141414;
+}
+
+.nav__link_footer:hover {
+    color: #FC8A11;
+}
+
 @media (max-width:768px) {
 
 /* -- header -- */
@@ -801,6 +812,13 @@ left: 9vw;
     flex-direction: column;
 }
 
+.fmenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__link_footer {
+    font-size: 2vw;
 }
 
 
@@ -988,3 +1006,21 @@ body {
     font-size: 70%;
 }
 } 
+
+@media (max-width: 430px) {
+    .people{
+        width: 70%;
+    }
+    
+    .text_over{
+        font-size: 70%;
+    }
+
+    .title_5{
+        font-size: small;
+    }
+
+    .socials{
+        width: 40%;
+    }
+}
