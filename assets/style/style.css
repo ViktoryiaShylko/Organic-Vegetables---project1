@@ -550,28 +550,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.page4_container-image_container{
-    display: flex;
-    margin: 5%;
-}
-
-
-.image_container-text_over {
-    font-family: "DM Sans", sans-serif;
-    font-size: 40px;
-    text-transform: uppercase;
-    margin: 5%;
-}
-
-
-.span_green{
-    color: green;
-}
-
-.span_orange{
-    color: orange;
-}
-
 .page5{
     font-family: "DM Sans", sans-serif;
     display: flex;
