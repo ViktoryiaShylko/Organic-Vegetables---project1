@@ -414,7 +414,7 @@ body {
     grid-column: 3/4;
     grid-row: 3/4;
 }
-.main__section3__dark hover {
+.main__section3__dark hover{
 	cursor: pointer;
 }
 
@@ -429,7 +429,7 @@ body {
     width: 18vw;
 }
 /* -- section4 -- */
-#dark{
+#darkk{
     background: rgba(102, 102, 102, 0.5);
 	width: 100vw;
 	height: 100vh;
@@ -452,7 +452,7 @@ body {
     background: #fff;
     z-index: 102;
 }
-#dark:target {
+#darkk:target {
     display: block;
 }
 .ww1 {
