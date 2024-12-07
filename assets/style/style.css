@@ -417,16 +417,10 @@ body {
 .main__section3__dark hover{
 	cursor: pointer;
 }
-
-.main__section3__button{
+.main__section3__dark img{
+    width: 18vw;
     display: block;
     margin: auto;
-    width: 18vw;
-    border: none;
-    background-color: transparent;
-}
-.main__section3__button img{
-    width: 18vw;
 }
 /* -- section4 -- */
 #darkk{
