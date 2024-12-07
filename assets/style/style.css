@@ -928,6 +928,118 @@ left: 9vw;
     margin-top: -7.5%;
 }
 }
+    /* -- section3 -- */
+.main__section3__title {
+    font-size: 1.75em;
+}
+.main__section3__text {
+    font-size: 1.125em;
+}
+.main__section3__cards{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center; 
+}
+.main__section3__cards__1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 45vw;
+}
+.main__section3__cards__2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 45vw;
+}
+.main__section3__cards__3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 45vw;
+}
+.main__section3__cards__4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 45vw;
+}
+.main__section3__cards__5{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 45vw;
+}
+.main__section3__cards__6{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 45vw;
+}
+.main__section3__cards__7{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 45vw;
+}
+.main__section3__cards__8{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 45vw;
+}
+.main__section3__cards__9{
+    display: none;
+}
+
+/* section4 */
+#popup{
+    width: 91vw;
+    height: 82vh;
+} 
+.main__section4{
+    grid-template-rows: 1fr 2fr 3.8fr;
+}
+.main__section4__cross{
+    width: 2.2vw;
+}
+.main__section4__cards{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__section4__cards__10{
+    width: 26vw;
+    height: 24vh;
+}
+.main__section4__cards__11{
+    width: 26vw;
+    height: 24vh;
+}
+.main__section4__cards__12{
+    width: 26vw;
+    height: 24vh;
+}
+.main__section4__finish{
+    overflow: hidden;
+    position: relative;
+}
+.main__section4__message__btn1{
+    width: 49vw;
+
+}
+.main__section4__message__btn2{
+    width: 49vw;
+}
+.main__section4__message__btn3{
+    width: 49vw;
+
+}
+.main__section4__message__text{
+    width: 49vw;
+}
+.main__section4__message__btn4{
+    width: 16vw;
+}
+.main__section4__message__girl{
+    position: absolute;
+    bottom: -5vh;
+    right: -10vw;
+    }
 
 /* ---- */
 
