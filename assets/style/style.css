@@ -1073,7 +1073,26 @@ left: 9vw;
     font-size: 2vw;
 }
 
-
+@media (max-width:600px) {
+.main__section3__title {
+    font-size: 2em;
+}
+.main__section3__text {
+    font-size: 1em;
+}
+.br1{
+    display: inline;
+}
+.br2{
+    display: none;
+}
+.br3{
+    display: inline;
+}
+.br4{
+    display: none;
+}
+} 
 
 
 @media (max-width:375px) {
