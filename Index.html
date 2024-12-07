@@ -190,7 +190,16 @@
                 });
             });
         });
-        
+        let button = document.querySelector('.main__section3__button');
+		let wrapper = document.querySelector('#ww');
+		let close = document.querySelector('.close');
+		button.addEventListener('click', function () {
+			console.log(1);
+			wrapper.classList.add('ww1');
+		});
+		close.addEventListener('click', () => {
+			wrapper.classList.remove('ww1');
+		});
     </script>
 </body>
 </html>
