@@ -709,6 +709,71 @@ body {
     color: #FC8A11;
 }
 
+@media (max-width: 1024px) {
+    /* -- header -- */
+    .nav__link {
+        font-size: 0.875rem;
+    }
+    /* ---- */
+.main__section3__button{
+    width: 16vw;
+}
+.main__section3__button img{
+    width: 16vw;
+}
+
+#popup{
+    width: 63vw;
+    height: 85vh;
+} 
+.main__section4__title{
+    font-size: 2em;
+} 
+.main__section4__cards__10{
+    width: 18vw;
+}
+.main__section4__cards__11{
+    width: 18vw;
+}
+.main__section4__cards__12{
+    width: 18vw;
+}
+.main__section4__message__btn1{
+    width: 24vw;
+    height: 3vh;
+    font-size: 0.75em;
+    margin-top: 5%;
+}
+.main__section4__message__btn2{
+    width: 24vw;
+    height: 3vh;
+    font-size: 0.75em;
+    margin-top: 5%;
+}
+.main__section4__message__btn3{
+    width: 24vw;
+    height: 3vh;
+    font-size: 0.75em;    
+    margin-top: 5%;
+}
+.main__section4__message__text{
+    width: 24vw;
+    height: 9vh;
+    font-size: 0.75em;
+    margin-top: 5%;
+}
+.main__section4__message__btn4{
+    width: 8vw;
+    height: 3vh;
+    font-size: 0.75em;
+    margin-top: 9%;
+}
+.main__section4__message__girl{
+    bottom: -3vh;
+    right: -5vw;
+}
+}
+
 @media (max-width:768px) {
 
 /* -- header -- */
@@ -1012,7 +1077,67 @@ left: 9vw;
 }
 }
 
+@media (max-width:670px) {
+    /* -- header sec1 --*/
+    .nav__link {
+        font-size: 0.7rem;
+    }
+        /* ---- */
+}
+@media (max-width:600px) {
+    /* -- header sec1 --*/
+    .nav__link {
+        font-size: 0.6rem;
+    }
+    .section1__btn {
+        font-size: 0.625rem;
+    }
+        /* ---- */
+.main__section3__title {
+    font-size: 2em;
+}
+.main__section3__text {
+    font-size: 1em;
+}
+.br1{
+    display: inline;
+}
+.br2{
+    display: none;
+}
+.br3{
+    display: inline;
+}
+.br4{
+    display: none;
+}
+} 
 
+@media(max-width:500px) {
+     /* -- header sec1 --*/
+     .nav__link {
+        font-size: 0.45rem;
+    }
+        /* ---- */
+}
+
+@media (max-width: 430px) {
+    .title_5{
+        font-size: small;
+    }
+
+    .footer_nav-fmenu{
+        font-size: medium;
+    }
+
+    .footer_aside-socials{
+        width: 30%;
+    }
+
+    .footer_aside-number, .footer_aside-location{
+        font-size: small;
+    }
+}
 
 
 @media (max-width:375px) {
@@ -1202,20 +1327,3 @@ body {
 }
 }
 
-@media (max-width: 430px) {
-    .title_5{
-        font-size: small;
-    }
-
-    .footer_nav-fmenu{
-        font-size: medium;
-    }
-
-    .footer_aside-socials{
-        width: 30%;
-    }
-
-    .footer_aside-number, .footer_aside-location{
-        font-size: small;
-    }
-}
