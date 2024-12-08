@@ -976,7 +976,6 @@ left: 9vw;
 .main__section3__cards__9{
     display: none;
 }
-
 /* section4 */
 #popup{
     width: 91vw;
@@ -1013,7 +1012,6 @@ left: 9vw;
 }
 .main__section4__message__btn1{
     width: 49vw;
-
 }
 .main__section4__message__btn2{
     width: 49vw;
@@ -1031,8 +1029,8 @@ left: 9vw;
     position: absolute;
     bottom: -5vh;
     right: -10vw;
-    }
-
+}
+} 
 /* ---- */
 
 .page4{
