@@ -712,6 +712,9 @@ body {
     .nav__link {
         font-size: 0.875rem;
     }
+    .header__logo {
+        width: 10vw;
+    }
     /* ---- */
 .main__section3__button{
     width: 16vw;
