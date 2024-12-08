@@ -422,11 +422,17 @@ body {
 .main__section3__dark hover{
 	cursor: pointer;
 }
-.main__section3__dark img{
-    width: 18vw;
+.main__section3__dark{
     display: block;
     margin: auto;
+    width: 18vw;
+    height: auto;
+    border: none;
+    background-color: transparent;
 }
+.main__section3__dark img{
+    width: 18vw;
+} 
 /* -- section4 -- */
 #darkk{
     background: rgba(102, 102, 102, 0.5);
@@ -506,7 +512,6 @@ body {
 }
 .main__section4__cards__10{
     width: 13vw;
-
 }
 .main__section4__cards__11{
     width: 13vw;
@@ -981,6 +986,12 @@ left: 9vw;
 .main__section3__cards__9{
     display: none;
 }
+.main__section3__dark {
+    width: 20vw;
+}
+.main__section3__dark img{
+    width: 20vw;
+} 
 /* section4 */
 #popup{
     width: 91vw;
@@ -1122,6 +1133,144 @@ left: 9vw;
 }
 
 @media (max-width: 430px) {
+.main__section3__title {
+    font-size: 1.5em;
+}
+.main__section3__text {
+    font-size: 0.875em;
+}
+.main__section3__cards{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center; 
+}
+.main__section3__cards__1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 89vw;
+}
+.main__section3__cards__2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 89vw;
+}
+.main__section3__cards__3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 89vw;
+}
+.main__section3__cards__4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 89vw;
+}
+.main__section3__cards__5{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 89vw;
+}
+.main__section3__cards__6{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    width: 89vw;
+}
+.main__section3__cards__7{
+    grid-column: 1/2;
+    grid-row: 7/8;
+    width: 89vw;
+}
+.main__section3__cards__8{
+    grid-column: 1/2;
+    grid-row: 8/9;
+    width: 89vw;
+}
+.main__section3__dark{
+    width: 26vw;
+}
+.main__section3__dark img{
+    width: 26vw;
+} 
+#popup{
+    width: 90vw;
+    height: 95vh;
+} 
+.main__section4{
+    grid-template-rows: 1fr 6.1fr 6.2fr;
+}
+.main__section4__first{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.main__section4__title{
+    font-size: 1.45em;
+}
+.main__section4__cross{
+    width: 2.8vw;
+}
+.main__section4__cards{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main__section4__cards__10{
+    display:none;
+}
+.main__section4__cards__11{
+    display:none;
+}
+.main__section4__cards__12{
+    display:none;
+}
+.main__section4__cards__13{
+    display:block;
+    width: 82vw;
+    margin-bottom: 3%;
+}
+.main__section4__cards__14{
+    display:block;
+    width: 82vw;
+    margin-bottom: 3%;
+}
+.main__section4__cards__15{
+    display:block;
+    width: 82vw;
+    margin-bottom: 3%;
+}
+.main__section4__finish{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.main__section4__message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main__section4__message__btn1{
+    width: 80vw;
+    margin-top: 1%;
+}
+.main__section4__message__btn2{
+    width: 80vw;
+    margin-top: 1%;
+}
+.main__section4__message__btn3{
+    width: 80vw;
+    margin-top: 1%;
+}
+.main__section4__message__text{
+    width: 80vw;
+    margin-top: 1%;
+}
+.main__section4__message__btn4{
+    width: 20vw;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.main__section4__message__girl{
+    display: none;
+}
     .title_5{
         font-size: small;
     }
