@@ -106,10 +106,10 @@ body {
 }
 .header__logo {
     margin-right: 30vw;
-    width: 8vw;
+    width: 10%;
 }
 .header__btn {
-    width: 1.7vw;
+    width: 2%;
     display: flex;
     align-items: center;
 }
@@ -712,9 +712,6 @@ body {
     .nav__link {
         font-size: 0.875rem;
     }
-    .header__logo {
-        width: 10vw;
-    }
     /* ---- */
 .main__section3__button{
     width: 16vw;
@@ -781,14 +778,11 @@ body {
 .header {
     padding: 0.1vw 2.5vw;
 }
+.header__logo {
+    width: 15%;
+}
 .nav__link {
     font-size: 0.8rem;
-}
-.header__logo {
-    width: 15vw;
-}
-.header__btn {
-    width: 2.5vw;
 }
     /* -- section1 -- */
 .section1 {
@@ -1124,7 +1118,7 @@ left: 9vw;
 
 }
 .header__logo {
-    width: 25vw;
+    width: 25%;
     left: 5vw;
 }
 .header__btn {
@@ -1162,7 +1156,7 @@ left: 9vw;
     justify-content: flex-start;
 }
 .nav__link_cart {
-    width: 7vw;
+    width: 6vw;
     display: flex;
 }
 .nav__link {
