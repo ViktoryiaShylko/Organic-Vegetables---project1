@@ -1,7 +1,7 @@
 body {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 /* -- header -- */
 .header {
@@ -86,11 +86,15 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    width: 25vw;
+    width: 30vw;
     list-style-type:  none;
 }
+.nav__item {
+    display: flex;
+    align-items: center;
+}
 .nav__link {
-    font-size: 1vw;
+    font-size: 1.125rem;
     text-decoration: none;
     color: #141414;
 }
@@ -101,7 +105,7 @@ body {
     color: #FC8A11;
 }
 .header__logo {
-    margin-right: 25vw;
+    margin-right: 30vw;
     width: 8vw;
 }
 .header__btn {
@@ -121,7 +125,7 @@ body {
 /* -- section1 -- */
 .section1 {
     position: relative;
-    padding: 15vw 2.2vw 2.2vw;
+    padding: 15vw 2.5vw 2.5vw;
     background-color: #A1C487;
     display: flex;
     justify-content: space-between;
@@ -172,8 +176,8 @@ left: 6.5vw;
     white-space: pre-line;
     margin: 0;
     text-transform: uppercase;
-    font-size: 4.5vw;
-    line-height: 5vw;
+    font-size: 4rem;
+    line-height: 4.688rem;
     font-weight: 400;
     color: #FFFFFF;
 }
@@ -182,13 +186,15 @@ left: 6.5vw;
     color: #EAF7E5;
 }
 .section1__text {
+    padding-bottom:2vw;
     width: 80%;
     margin: 0;
-    font-size: 1vw;
-    line-height: 1.8vw;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
     color: #FFFFFF;
 }
 .section1__shop-btn {
+    padding-bottom:2vw;
     transition: fill 0.3s ease;
     width: 7vw;
     height: 7vw;
@@ -205,7 +211,6 @@ left: 6.5vw;
     align-self: flex-start;
 }
 .wrapper-big {
-    margin-top: 2vw;
     align-self: flex-end;
 }
 .wrapper-small {
@@ -218,7 +223,7 @@ left: 6.5vw;
     border-radius: 25px;
     padding: 0.8vw  2.2vw;
     margin-left: 0.5vw;
-    font-size: 0.8vw;
+    font-size: 0.75rem;
     font-weight: 500;
     background-color: #A1C487;
     color: #FFFFFF;
@@ -703,6 +708,11 @@ body {
 }
 
 @media (max-width: 1024px) {
+    /* -- header -- */
+    .nav__link {
+        font-size: 0.875rem;
+    }
+    /* ---- */
 .main__section3__button{
     width: 16vw;
 }
@@ -766,13 +776,10 @@ body {
 
 /* -- header -- */
 .header {
-    padding: 0.1vw 4vw;
-}
-.nav__list {
-    width: 30vw;
+    padding: 0.1vw 2.5vw;
 }
 .nav__link {
-    font-size: 1.7vw;
+    font-size: 0.8rem;
 }
 .header__logo {
     width: 15vw;
@@ -783,7 +790,7 @@ body {
     /* -- section1 -- */
 .section1 {
     flex-direction: column;
-    padding: 15vw 4vw 4vw;
+    padding-top: 15vw;
 }
 .block-left {
     width: 100%;
@@ -822,15 +829,15 @@ left: 9vw;
     margin-bottom:3vw;
     width: 85vw;
     white-space: normal;
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 3.375rem;
+    line-height: 4rem;
 }
 .section1__text {
     margin-bottom:3vw;
     width: 70vw;
     white-space: normal;
-    font-size: 1.7vw;
-    line-height: 2.5vw;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
 }
 .section1__shop-btn {
     width: 14vw;
@@ -844,7 +851,6 @@ left: 9vw;
 }
 .section1__btn {
     padding: 1.3vw  2.7vw;
-    font-size: 1.5vw;
 }
 
     /* --section2-- */
@@ -1062,8 +1068,22 @@ left: 9vw;
 .footer_nav-link {
     font-size: 2vw;
 }
-
+@media (max-width:670px) {
+    /* -- header sec1 --*/
+    .nav__link {
+        font-size: 0.7rem;
+    }
+        /* ---- */
+}
 @media (max-width:600px) {
+    /* -- header sec1 --*/
+    .nav__link {
+        font-size: 0.6rem;
+    }
+    .section1__btn {
+        font-size: 0.625rem;
+    }
+        /* ---- */
 .main__section3__title {
     font-size: 2em;
 }
@@ -1084,14 +1104,20 @@ left: 9vw;
 }
 } 
 
+@media(max-width:500px) {
+     /* -- header sec1 --*/
+     .nav__link {
+        font-size: 0.45rem;
+    }
+        /* ---- */
+}
 
-
-@media (max-width:375px) {
+@media (max-width:375px){
 
 /* -- header -- */
 
 .header {
-    padding: 3vw 5vw;
+    padding: 3vw 5.33vw;
 
 }
 .header__logo {
@@ -1125,6 +1151,7 @@ left: 9vw;
 }
 
 .nav__list {
+    width: 70vw;
     align-self: center;
     align-items: center;
     flex-direction: column;
@@ -1132,11 +1159,11 @@ left: 9vw;
     justify-content: flex-start;
 }
 .nav__link_cart {
-    width: 5vw;
+    width: 7vw;
     display: flex;
 }
 .nav__link {
-    font-size: 3.5vw;
+    font-size: 0.875rem;
     color: #FFFFFF;
 }
 .cart path{
@@ -1146,7 +1173,7 @@ left: 9vw;
 
     /* -- section1 -- */
 .section1 {
-    padding: 20vw 5vw 5vw;
+    padding: 20vw 5.33vw 5.33vw;
 }
 .block-right {
     width: 100%;
@@ -1172,13 +1199,11 @@ left: 13.2vw;
 }
 .section1__title {
     width: 100%;
-    font-size: 9.5vw;
-    line-height: 10vw;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
 }
 .section1__text {
     width: 100%;
-    font-size: 3.5vw;
-    line-height: 5vw;
 }
 .section1__shop-btn {
     width: 17vw;
@@ -1189,7 +1214,6 @@ left: 13.2vw;
 }
 .section1__btn {
     padding: 2vw  3.5vw;
-    font-size: 2.5vw;
 }
 
     /* --section2-- */
