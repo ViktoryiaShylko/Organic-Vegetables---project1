@@ -1127,7 +1127,7 @@ left: 9vw;
 @media(max-width:500px) {
      /* -- header sec1 --*/
      .nav__link {
-        font-size: 0.45rem;
+        font-size: 0.4rem;
     }
         /* ---- */
 }
